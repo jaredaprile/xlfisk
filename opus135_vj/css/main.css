@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body {
+  !background:#1c1c1c;
+  background:#212121;
+  font-family: 'Lato', Calibri, serif;
+  color:black;
+  padding:0;
+  margin:0;
+}
+
+header {
+  height:5em;
+  background:black;
+  position:sticky;
+}
+
+header img {
+  height:3em;
+  width:auto;
+  padding:1em;
+}
+
+div.container {
+  margin:0 auto;
+  max-width:100%;
+}
+
+article {
+  background:#373737;
+  color:white;
+
+}
+
+figure.opus {
+  text-align:center;
+  padding:0;
+  margin:0;
+}
+
+figure.opus img {
+  max-width:100%;
+  height:auto;
+}
+
+h1#case-study-opus-135,
+h2#jacobs-school {
+  text-align:center;
+}
+
+h1, h2, h3 {
+  font-family:'Cabin'
+}
+
+h1#case-study-opus-135 {
+  background:#c29709;
+  padding: 1em 1em;
+  margin:0;
+}
+
+blockquote.testimo {
+  color:#cccccc;
+  font-style: italic;
+  font-size: 105%;
+}
+
+h3 {
+  color:#c29709;
+  padding:0 1em;
+  font-size: 180%;
+}
+
+h3#a-fresh-start{
+  padding-top: 1em;
+}
+
+p {
+  padding: 1em;
+  font-size:1.1em;
+}
+
+figcaption {
+  color:#999999;
+  font-style: italic;
+}
